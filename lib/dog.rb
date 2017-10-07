@@ -16,7 +16,9 @@ class Dog
     @breed = breed
   end
 
-  def breed 
+  def breed
     @breed
   end
 end
+
+fido = Dog.new("Fido", "Pug")
